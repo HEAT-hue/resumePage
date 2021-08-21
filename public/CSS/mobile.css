@@ -1,0 +1,73 @@
+#navBar .container,
+#navBar .container .flexcontainer {
+  flex-direction: column;
+}
+
+#navBar ul li a {
+  padding: 10px;
+  border-bottom: 1px dotted #444444;
+  display: block;
+  margin-bottom: 5px;
+}
+
+#nav-collapse {
+  display: none;
+  color: #f7c08a;
+  text-align: right;
+  position: absolute;
+  top: 20px;
+}
+
+#nav-collapse.active {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+
+#show-case {
+  height: 500px;
+}
+
+#show-case .container {
+  padding-top: 80px;
+}
+
+#show-case .btn {
+  margin-top: 20px;
+}
+
+#hotel-info {
+  font-size: 95%;
+}
+
+#hotel-info #hotel-info-img {
+  display: none;
+}
+
+#hotel-info #hotel-info-content {
+  flex-grow: 1;
+  padding: 30px;
+  text-align: center;
+}
+
+section.services {
+  flex-direction: column;
+}
+
+#about .about-flex {
+  flex-direction: column;
+}
+
+#test {
+  height: 100%;
+  padding-top: 50px;
+}
+
+section.address .box {
+  border-bottom: 2px dotted #444444;
+  padding: 10px;
+  color: #797272;
+}
