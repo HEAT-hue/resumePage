@@ -14,5 +14,8 @@
     "express-handlebars": "^5.3.3",
     "mongoose": "^5.13.7",
     "nodemailer": "^6.6.3"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
