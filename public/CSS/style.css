@@ -13,6 +13,7 @@ h1 {
   font-size: 2.625rem;
   color: #4d873e;
 }
+
 h2 {
   color: #66bfbf;
   font-size: 1.625rem;
@@ -51,7 +52,7 @@ img.top-cloud, img.bottom-cloud {
   width: 9.375rem;
 }
 img.mountain-img {
-  width: 37.375rem;
+  width: 80%;
 }
 
 .image-container h1 {
@@ -73,24 +74,41 @@ img.mountain-img {
   left: 0;
 }
 
-/* Middle Container Styling */
-div.skill-row {
-  width: 50%;
-  margin: 6.25rem auto;
-  text-align: left;
-  line-height: 2;
+/* FROM WIDTH LESS THAN 650px */
+@media (max-width: 650px) {
+  .image-container {
+    width: 100%;
+  }
+
+  img.mountain-img {
+    width: 25.375rem;
+  }  
 }
 
-div.skill-row .com-img {
+/* Middle Container Styling */
+div.profile img {
+  width: 280px;
+}
+
+div.skills h3 {
+  margin: 0;
+  line-height: 1;
+}
+
+
+div.skill-row {
+  width: 80%;
+  max-width: 34rem;
+  margin: 6.25rem auto;
+  text-align: left;
+  line-height: 1.5;
+  /* outline: 1px solid red; */
+}
+
+div.skill-row img{
   float: left;
   width: 25%;
   margin-right: 1.875rem;
-}
-
-div.skill-row .chill-img {
-  float: right;
-  width: 25%;
-  margin-left: 1.875rem;
 }
 
 div.skill-row:nth-child(2){
@@ -98,6 +116,8 @@ div.skill-row:nth-child(2){
 }
 
 div.contact-me {
+  width: 80%;
+  margin: 0 auto;
   margin-bottom: 4.375rem;
 }
 
